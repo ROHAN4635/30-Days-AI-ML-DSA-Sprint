@@ -318,3 +318,27 @@ A Decision Tree does not memorize answers. It learns a sequence of decision rule
 
 ### Next Goal
 Learn Overfitting, Underfitting and Model Evaluation Metrics.
+
+## Day 4
+
+### Topics Learned
+- Overfitting
+- Underfitting
+- Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+### Biggest Learning
+A model with higher accuracy is not always better. The choice of evaluation metric depends on the real-world problem and the cost of different types of mistakes.
+
+### Challenges Faced
+- Understanding why accuracy can be misleading.
+- Differentiating between Precision and Recall.
+
+### Confidence
+⭐⭐⭐⭐☆ (4/5)
+
+### Next Goal
+Learn how to improve models and understand cross-validation.
