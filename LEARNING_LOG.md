@@ -342,3 +342,33 @@ A model with higher accuracy is not always better. The choice of evaluation metr
 
 ### Next Goal
 Learn how to improve models and understand cross-validation.
+
+
+## Day 5
+
+### Topics Learned
+
+- Cross Validation
+- K-Fold Cross Validation
+- cross_val_score()
+- Hyperparameters
+- max_depth
+- random_state
+
+### Biggest Learning
+
+A model should not be judged using only one train-test split. Cross Validation provides a much more reliable estimate of performance by testing the model on multiple different splits.
+
+### Challenges Faced
+
+- Understanding why Cross Validation is needed even after train-test splitting.
+- Differentiating between the purpose of train-test split and cross validation.
+- Understanding how max_depth affects underfitting and overfitting.
+
+### Confidence
+
+⭐⭐⭐⭐☆ (4.5/5)
+
+### Next Goal
+
+Learn Random Forest and understand how combining multiple Decision Trees creates a stronger model.
