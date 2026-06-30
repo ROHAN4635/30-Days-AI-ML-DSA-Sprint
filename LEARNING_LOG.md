@@ -372,3 +372,53 @@ A model should not be judged using only one train-test split. Cross Validation p
 ### Next Goal
 
 Learn Random Forest and understand how combining multiple Decision Trees creates a stronger model.
+
+
+## Day 6
+
+### Topics Learned
+
+- Random Forest
+- Ensemble Learning
+- Bootstrap Sampling (Concept)
+- Majority Voting
+- RandomForestClassifier
+- n_estimators
+- random_state
+- fit()
+- predict()
+- accuracy_score()
+
+---
+
+### Biggest Learning
+
+A Random Forest is not a completely different algorithm—it is a collection of many independently trained Decision Trees. Each tree learns from different random samples and feature subsets, and the final prediction is made using majority voting (classification) or averaging (regression). This makes Random Forest more accurate and less prone to overfitting than a single Decision Tree.
+
+---
+
+### Challenges Faced
+
+- Understanding why multiple Decision Trees perform better than one.
+- Visualizing what happens internally during fit() and predict().
+- Connecting Random Forest with overfitting and generalization.
+
+---
+
+### Confidence
+
+⭐⭐⭐⭐⭐ (5/5)
+
+I can now explain:
+- Why Random Forest exists.
+- How it is trained.
+- What n_estimators does.
+- Why random_state is important.
+- How majority voting works.
+- Why it generalizes better than a Decision Tree.
+
+---
+
+### Next Goal
+
+Learn Linear Regression and understand how machine learning predicts continuous numerical values instead of categories.
