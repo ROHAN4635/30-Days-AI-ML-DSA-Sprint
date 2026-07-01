@@ -422,3 +422,83 @@ I can now explain:
 ### Next Goal
 
 Learn Linear Regression and understand how machine learning predicts continuous numerical values instead of categories.
+
+
+
+
+---
+
+# 📝 DAY 7 LEARNING LOG
+
+```markdown
+# Day 7 Learning Log
+
+## Topics Covered
+- Introduction to Regression
+- Classification vs Regression
+- Linear Relationship
+- Equation of a Line (y = mx + b)
+- Slope and Intercept
+- make_regression()
+- Dataset Generation
+- Dataset Shapes
+- Train-Test Split
+- LinearRegression()
+- fit()
+- coef_
+- intercept_
+- predict()
+- Mean Squared Error (MSE)
+- R² Score
+- Regression Visualization
+
+---
+
+## What I Learned
+
+- Regression predicts continuous numerical values.
+- Linear Regression learns the best-fit straight line.
+- The model learns slope and intercept during training.
+- predict() uses the learned equation to predict unseen data.
+- Noise makes data more realistic.
+- MSE measures average squared prediction error.
+- Lower MSE means better predictions.
+- R² measures how well the regression line explains the data.
+- Higher R² means the model explains the data better.
+- Blue dots represent actual data.
+- Red line represents the learned regression line.
+
+---
+
+## Mistakes I Corrected
+
+- Initially thought scattered data meant higher R².
+- Correct understanding:
+  - Points close to regression line → Lower MSE and Higher R².
+  - Points far from regression line → Higher MSE and Lower R².
+
+---
+
+## Confidence Rating
+
+Regression Basics ⭐⭐⭐⭐⭐
+
+Dataset Shapes ⭐⭐⭐⭐⭐
+
+Linear Regression Workflow ⭐⭐⭐⭐⭐
+
+Model Training ⭐⭐⭐⭐⭐
+
+Prediction ⭐⭐⭐⭐⭐
+
+MSE ⭐⭐⭐⭐⭐
+
+R² Score ⭐⭐⭐⭐☆
+
+Regression Visualization ⭐⭐⭐⭐⭐
+
+---
+
+## Overall Reflection
+
+Today I learned my first regression algorithm. I now understand the complete workflow from generating data to evaluating predictions. I can explain what fit() learns, how predict() works, why predictions differ from actual values, and how MSE and R² evaluate the quality of a regression model. I also understand the relationship between the regression line, actual data points, prediction errors, and model performance.
